@@ -1,0 +1,124 @@
+/*nav*/
+.container-menu{
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.ul-flued{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+   
+}
+.ul-activo{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.ul-inactivo{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+.container-menu ul a{
+   
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: auto; 
+}
+.container-menu ul a:hover{
+    content: "";
+    width: 0px;
+    height: 2px;
+   background: #02A9DA; 
+   border-radius: 6px;
+   transition:all .7s ease;
+}
+.color{
+    display: none;
+}
+.devtto{
+    font-size: 40px;
+    color: #02A9DA;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .ul-flued{
+        display: none;
+    }
+    .color{
+        display: flex;
+        font-size: 40px;
+        color: #02A9DA;
+        cursor: pointer;
+    }
+   
+}
+@media screen and (min-width: 768px){
+    .ul-activo{
+      
+         display: none;
+        
+    }
+    .ul-inactivo{
+          display: none;
+        
+    }
+   
+}
+
+/* intro*/
+.encabezado{
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 5%;
+}
+.img-intro{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border:10px solid #069BDF;
+    border-color: #02A9DA;
+}
+
+
+span.hola{
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+    color: antiquewhite;
+   
+}
+span.name{
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    color: #02A9DA;
+   
+}
+span.devp{
+    font-family: 'Righteous', cursive;
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: overline;
+    opacity: 80%;
+}
+
+@media screen and (max-width: 768px){
+    .encabezado{
+        flex-direction: column;
+    }
+}
