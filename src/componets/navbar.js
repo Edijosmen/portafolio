@@ -31,25 +31,27 @@ export default function NavBar() {
               </Container>
           </Navbar> */}
           <nav className='container-menu'>
-            <a>
-                <img src="img/logo-porfoliof.png" alt=''/>
-            </a>
-            <ul className='ul-flued'>
-                <li ><a href='#'>Inicio</a></li>
-                <li ><a href='#'>Perfil</a></li>
-                <li ><a href='#'>Skill</a></li>
-                <li ><a href='#'>Proyectos</a></li>
-            </ul>
-               
-            <a ><FiMenu className='color' onClick={btnclik}></FiMenu></a>
-            <SiDevdotto className='devtto'></SiDevdotto>
+              <a>
+                  <img src="img/logo-porfoliof.png" alt='' />
+              </a>
+              <ul className='ul-flued'>
+                  <li ><a href='#'>Inicio</a></li>
+                  <li ><a href='#perfils'>Perfil</a></li>
+                  <li ><a href='#'>Skill</a></li>
+                  <li ><a href='#'>Proyectos</a></li>
+              </ul>
+
+              <a ><FiMenu className='color' onClick={btnclik}></FiMenu></a>
+              <SiDevdotto className='devtto'></SiDevdotto>
           </nav>
-          <ul className={check === true ? 'ul-activo':'ul-inactivo'} hidden={check === true ? 'true':undefined}>
-                <li ><a href='#'>Inicio</a></li>
-                <li ><a href='#'>Perfil</a></li>
-                <li ><a href='#'>Skill</a></li>
-                <li ><a href='#'>Proyectos</a></li>
-            </ul>
+          <section className='container-menu2'>
+              <ul className={check === true ? 'ul-activo' : 'ul-inactivo'} hidden={check === true ? 'true' : undefined}>
+                  <li ><a href='#'>Inicio</a></li>
+                  <li ><a href='#'>Perfil</a></li>
+                  <li ><a href='#'>Skill</a></li>
+                  <li ><a href='#'>Proyectos</a></li>
+              </ul>
+          </section>
       </div>
   )
 }

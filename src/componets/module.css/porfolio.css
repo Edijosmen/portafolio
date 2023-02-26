@@ -1,4 +1,5 @@
 /*nav*/
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 .container-menu{
     display: flex;;
     flex-direction: row;
@@ -13,39 +14,66 @@
     text-decoration: none;
     list-style: none;
     align-items: center;
-   
+    font-family: 'Anonymous Pro', monospace;
+}
+.ul-flued li a{
+    color: aliceblue;
 }
 .ul-activo{
     display: flex;
     flex-direction: row;
     text-decoration: none;
     list-style: none;
-    
+    font-family: 'Anonymous Pro', monospace;
 }
+
 .ul-inactivo{
     display: flex;
     flex-direction: column;
     text-decoration: none;
     list-style: none;
-    
+    font-family: 'Anonymous Pro', monospace;
     
 }
 .container-menu ul a{
-   
     flex-direction: row;
     text-decoration: none;
     list-style: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: auto; 
+    font-size: 20px;
 }
 .container-menu ul a:hover{
     content: "";
     width: 0px;
     height: 2px;
-   background: #02A9DA; 
+   background: #fd0a60; 
    border-radius: 6px;
    transition:all .7s ease;
+   color: aliceblue;
+  
+}
+.container-menu2 ul li{
+    margin-top: 8px;
+}
+.container-menu2 ul li a{
+ color: aliceblue;
+ text-decoration: none;
+ font-size: 20px;
+}
+.container-menu2 ul a:hover{
+    content: "";
+    width: 0px;
+    height: 2px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+   background: #fd0a60; 
+   border-radius: 6px;
+   transition:all .7s ease;
+   color: aliceblue;
+  
 }
 .color{
     display: none;
@@ -56,30 +84,6 @@
     margin: 10px;
 }
 
-@media screen and (max-width: 768px){
-    .ul-flued{
-        display: none;
-    }
-    .color{
-        display: flex;
-        font-size: 40px;
-        color: #02A9DA;
-        cursor: pointer;
-    }
-   
-}
-@media screen and (min-width: 768px){
-    .ul-activo{
-      
-         display: none;
-        
-    }
-    .ul-inactivo{
-          display: none;
-        
-    }
-   
-}
 
 /* intro*/
 .encabezado{
@@ -116,9 +120,249 @@ span.devp{
     text-decoration: overline;
     opacity: 80%;
 }
+/*animaciones*/
+a {
+    position: relative;
+    color: #02A9DA;
+    text-decoration: none;
 
+  }
+  
+  a:hover {
+    color: #fd0a60;
+  }
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#fd0a60;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  a:hover::before {
+    transform: scaleX(1);
+  }
+
+.line-animada{
+    
+    width: 10px;
+    height: 10px;
+    background-color: #02A9DA;
+    animation-name: moved;
+    animation-duration: 3s;
+    padding-top: 1px;
+    padding-right: 0px;
+    transform: translateX(200px);
+   
+}
+@keyframes moved {
+    0%{
+       
+           
+        padding-right: 0px;
+    }
+    100%{
+        
+       
+        padding-right: 200px;
+    }
+}
+.put-animete{
+    background:#02A9DA ;
+    animation-name: identifier;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    border-radius: 99ch;
+}
+@keyframes identifier {
+    100%{
+        
+       padding-left: 0px;
+       padding-top: 0%;
+        
+    }
+    0%{
+        padding-left: 100%;
+        
+        padding-top: 5px;
+    }
+}
+
+
+
+/* Global */
+
+
+
+/*end animate*/
 @media screen and (max-width: 768px){
     .encabezado{
         flex-direction: column;
     }
+}
+
+/*perfil*/
+.perfil{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+section.sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+span{
+    color: aliceblue;
+}
+.date-contenido {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   font-family: 'Anonymous Pro', monospace;  
+   padding-top: 30px;
+   text-align: left;
+}
+.descripcion{
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Anonymous Pro', monospace;  
+}
+
+.git{
+    font-size: 50px;
+    margin:20px;
+    color: #02A9DA;
+}
+.lik{
+    font-size: 50px;
+    margin:20px;
+    color: #02A9DA;
+}
+label{
+    color:#02A9DA;
+    font-weight:bold;
+}
+.title1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title2{
+  font-size: 25px;
+  font-family: 'Anonymous Pro', monospace; 
+}
+.icon-user{
+    font-size: 35px;
+    color: #02A9DA;
+}
+.fi{
+    font-size: 20px;
+}
+
+/*** ESTILOS BOTÓN SLIDE CLOSE ***/
+.ov-btn-slide-close {
+    background: #02A9DA; /* color de fondo */
+    color: #fff; /* color de fuente */
+   
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ov-btn-slide-close:before, .ov-btn-slide-close:after {
+    content: "";
+    
+    z-index: -1;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -50%;
+    background-color: #fd0a60; /* color de fondo hover */
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .ov-btn-slide-close:after {
+    left: 100%;
+  }
+  .ov-btn-slide-close:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-close:hover:before {
+    left: 0;
+  }
+  .ov-btn-slide-close:hover:after {
+    left: 50%;
+  }
+/*end perfil*/
+
+/*skill*/
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon-skill{
+    font-size: 100px;
+    color: #fd0a60;
+}
+.title-skill{
+    color: aliceblue;
+    text-decoration: overline underline;
+}
+.span-title{
+    font-size: 20px;
+    padding: 5px;
+}
+/*end skill*/
+
+
+
+@media screen and (max-width: 768px){
+    .ul-flued{
+        display: none;
+    }
+    .color{
+        display: flex;
+        font-size: 40px;
+        color: #02A9DA;
+        cursor: pointer;
+    }
+    .devtto{
+        display: none;
+    }
+    .perfil{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .date-contenido {
+        display: flex;
+        flex-direction: column;
+       font-family: 'Anonymous Pro', monospace;  
+       padding-top: 30px;
+       text-align: center;
+    }
+   
+}
+@media screen and (min-width: 768px){
+    .ul-activo{
+      
+         display: none;
+        
+    }
+    .ul-inactivo{
+          display: none;
+        
+    }
+   
 }
