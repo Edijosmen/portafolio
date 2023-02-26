@@ -1,4 +1,5 @@
 import React from 'react'
+import Education from '../componets/education'
 import Intro from '../componets/intro'
 import NavBar from '../componets/navbar'
 import Perfil from '../componets/perfil'
@@ -11,6 +12,7 @@ export default function Porfolio() {
      <Intro/>
      <Perfil/>
      <Skill/>
+     <Education/>
     </div>
   )
 }
