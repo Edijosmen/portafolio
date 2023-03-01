@@ -389,16 +389,7 @@ padding: 10px;
         
     }
    
-}
-
-  
- 
-  
-
-
-  
- 
-  
+}  
   .-box div a {
     position: relative;
     display: inline-block;
@@ -503,4 +494,21 @@ padding: 10px;
     50%,100% {
       bottom: 100%;
     }
+  }
+/* proyecto*/
+  .proyecto section{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .p-kid img{
+    width: 25rem;
+    height: auto;
+    padding: 10px;
+  }
+/* end proyecto*/
+
+  footer div {
+    color: aliceblue;
   }
