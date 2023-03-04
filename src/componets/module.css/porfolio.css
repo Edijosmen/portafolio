@@ -464,6 +464,10 @@ margin-bottom: 0px;
 .creden{
   margin-top: 15px;
   color: aliceblue;
+
+}
+.creden :hover{
+  cursor: pointer;
 }
 /* end education*/
 
@@ -515,21 +519,6 @@ margin-bottom: 0px;
     }
    
 }  
-
-/* proyecto*/
-  .proyecto section{
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-  }
-  .p-kid img{
-    width: 25rem;
-    height: auto;
-    padding: 10px;
-  }
-/* end proyecto*/
-
   footer div {
     color: aliceblue;
   }

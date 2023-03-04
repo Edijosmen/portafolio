@@ -1,0 +1,50 @@
+/* proyecto*/
+.proyecto section{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .p-kid img{
+    width: 25rem;
+    height: auto;
+    padding: 10px;
+  }
+  .btncl a {
+    text-decoration: none;
+   
+    padding: 10px;
+    color: aliceblue;
+  }
+  .btncl a:hover {
+    cursor: pointer;
+    transition:none
+  }
+  .btncl a::before {
+    background-color:#191919;
+    position: absolute;
+    display: block;
+   
+    transform: none;
+    transition:none;
+  }
+  .line-animada{
+    
+    width: 0px;
+    height: 0px;
+    background-color: #191919;
+    animation-name: none;
+    animation-duration: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    transform:none
+   
+}
+strong{
+    color: aliceblue;
+}
+.pr-icons{
+    color: #fd0a60;
+    font-size: 35px;  
+}
+/* end proyecto*/
