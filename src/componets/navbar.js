@@ -30,11 +30,11 @@ export default function NavBar() {
                   </Navbar.Collapse>
               </Container>
           </Navbar> */}
-          <nav className='container-menu subMenu' >
+          <nav className='container-menu' >
               <a>
                   <img src="img/logo-porfoliof.png" alt='' />
               </a>
-              <ul className='ul-flued'>
+              <ul className="ul-flued">
                   <li ><a href='#intro'>Inicio</a></li>
                   <li ><a href='#perfils'>Perfil</a></li>
                   <li ><a href='#skill'>Skill</a></li>
@@ -45,7 +45,7 @@ export default function NavBar() {
               <SiDevdotto className='devtto'></SiDevdotto>
           </nav>
           <section className='container-menu2'>
-              <ul className={check === true ? 'ul-activo' : 'ul-inactivo'} hidden={check === true ? 'true' : undefined}>
+              <ul className= {check === true ? 'ul-activo' : 'ul-inactivo'} hidden={check === true ? 'true' : undefined}>
                   <li ><a href='#intro'>Inicio</a></li>
                   <li ><a href='#perfils'>Perfil</a></li>
                   <li ><a href='#skill'>Skill</a></li>

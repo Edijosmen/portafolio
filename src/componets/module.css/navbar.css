@@ -28,14 +28,19 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Anonymous Pro', monospace;
+  
 }
 
 .ul-inactivo{
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     list-style: none;
     font-family: 'Anonymous Pro', monospace;
+    width: 100%;
+    position: sticky;
+    background-color: #191919;
     
 }
 .container-menu ul a{

@@ -5,7 +5,7 @@
 @media screen and (max-width: 768px){
  
     .ul-flued{
-        display: none;
+       display: none;
     }
     .color{
         display: flex;
@@ -54,6 +54,10 @@
         border-radius: 100%;
         border:2px solid #069BDF;
         border-color: #02A9DA;
+    }
+    .container-menu{
+        position: relative;
+
     }
     
 }
