@@ -4,6 +4,7 @@
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
+    padding-bottom: 50px;
   }
   .p-kid img{
     width: 25rem;
@@ -47,4 +48,21 @@ strong{
     color: #fd0a60;
     font-size: 35px;  
 }
+.p-title{
+  color: aliceblue;
+    text-decoration-line: underline;
+    font-size: 30px;
+  }
+  .hrs{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    width:97%;
+    color: #02A9DA;
+   
+    opacity: 100%;
+  }
 /* end proyecto*/

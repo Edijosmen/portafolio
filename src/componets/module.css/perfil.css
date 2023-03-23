@@ -1,0 +1,98 @@
+/*perfil*/
+.perfil{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+section.sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+span{
+    color: aliceblue;
+}
+.date-contenido {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   font-family: 'Anonymous Pro', monospace;  
+   padding-top: 30px;
+   text-align: left;
+}
+.descripcion{
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Anonymous Pro', monospace;  
+}
+
+.git{
+    font-size: 50px;
+    margin:20px;
+    color: #02A9DA;
+}
+.lik{
+    font-size: 50px;
+    margin:20px;
+    color: #02A9DA;
+}
+label{
+    color:#02A9DA;
+    font-weight:bold;
+}
+.title1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title2{
+  font-size: 25px;
+  font-family: 'Anonymous Pro', monospace; 
+}
+.icon-user{
+    font-size: 35px;
+    color: #02A9DA;
+}
+.fi{
+    font-size: 20px;
+}
+
+/*** ESTILOS BOTÓN SLIDE CLOSE ***/
+.ov-btn-slide-close {
+    background: #02A9DA; /* color de fondo */
+    color: #fff; /* color de fuente */
+   
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ov-btn-slide-close:before, .ov-btn-slide-close:after {
+    content: "";
+    
+    z-index: -1;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -50%;
+    background-color: #fd0a60; /* color de fondo hover */
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .ov-btn-slide-close:after {
+    left: 100%;
+  }
+  .ov-btn-slide-close:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-close:hover:before {
+    left: 0;
+  }
+  .ov-btn-slide-close:hover:after {
+    left: 50%;
+  }
+/*end perfil*/

@@ -1,4 +1,5 @@
 import React from 'react'
+import Contacto from '../componets/contacto'
 import Education from '../componets/education'
 import Footer from '../componets/footer'
 import Intro from '../componets/intro'
@@ -16,6 +17,7 @@ export default function Porfolio() {
      <Skill/>
      <Education/>
      <Proyectos/>
+     <Contacto/>
      <Footer/>
     </div>
   )

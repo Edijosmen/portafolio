@@ -1,9 +1,9 @@
 import React from 'react'
-import './module.css/porfolio.css'
+import './module.css/footer.css'
 export default function Footer() {
   return (
     <div>
-        <hr />
+        <hr className='hrs'/>
         <footer className='footer'>
               <div className="text-center p-4">
                   © 2021 Copyright:

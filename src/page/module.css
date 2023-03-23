@@ -1,3 +1,71 @@
 .body{
     background-color: #191919;
 }
+
+@media screen and (max-width: 768px){
+ 
+    .ul-flued{
+        display: none;
+    }
+    .color{
+        display: flex;
+        font-size: 40px;
+        color: #02A9DA;
+        cursor: pointer;
+    }
+    .devtto{
+        display: none;
+    }
+    .perfil{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .date-contenido {
+        display: flex;
+        flex-direction: column;
+       font-family: 'Anonymous Pro', monospace;  
+       padding-top: 30px;
+       text-align: center;
+    }
+    section.education{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        }
+   .ed-kid{
+            display: flex;
+            flex-direction: column;
+    }
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+    .formd{
+        width: auto;
+        height: auto;
+    }
+    .img-contacto{
+        width: 50%;
+        height: auto;
+        border-radius: 100%;
+        border:2px solid #069BDF;
+        border-color: #02A9DA;
+    }
+    
+}
+@media screen and (min-width: 768px){
+
+    .ul-activo{
+      
+         display: none;
+        
+    }
+    .ul-inactivo{
+          display: none;
+        
+    }
+} 

@@ -1,8 +1,10 @@
 import React from 'react'
-import './module.css/porfolio.css'
+import './module.css/perfil.css'
+
+
 import {BiUserPin} from 'react-icons/bi'
 import {BsGithub,BsLinkedin} from 'react-icons/bs'
-import Row from 'react-bootstrap/Row';
+
 export default function Perfil() {
   return (
       <div>

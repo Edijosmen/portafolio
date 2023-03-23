@@ -1,8 +1,8 @@
 import React from 'react'
-import {AiFillHtml5,AiFillGithub,AiOutlineConsoleSql} from 'react-icons/ai'
-import {FaDatabase} from 'react-icons/fa'
+import {AiFillHtml5,AiFillGithub} from 'react-icons/ai'
 import {DiNetmagazine,DiBootstrap,DiDocker,DiDotnet,DiMsqlServer,DiReact,DiResponsive,DiTrello,DiVisualstudio, DiDatabase} from 'react-icons/di'
-import './module.css/porfolio.css'
+
+import './module.css/skill.css'
 export default function Skill() {
   return (
     <div className='pt-5'>

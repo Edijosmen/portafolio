@@ -1,0 +1,19 @@
+/*skill*/
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon-skill{
+    font-size: 100px;
+    color: #fd0a60;
+}
+.title-skill{
+    color: aliceblue;
+    text-decoration:  underline;
+}
+.span-title{
+    font-size: 20px;
+    padding: 5px;
+}
+/*end skill*/

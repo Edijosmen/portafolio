@@ -1,0 +1,42 @@
+/* intro*/
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+}
+.desc{
+    width: 100%;
+    height: auto;
+}
+.foto{
+    width: 100%;
+    height: auto;
+}
+.img-intro{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border:10px solid #069BDF;
+    border-color: #02A9DA;
+}
+span.hola{
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+    color: antiquewhite;
+   
+}
+span.name{
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    color: #02A9DA;
+   
+}
+span.devp{
+    font-family: 'Righteous', cursive;
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: overline;
+    opacity: 80%;
+}
+

@@ -2,7 +2,7 @@ import React from 'react'
 import {FiMenu} from 'react-icons/fi'
 import {SiDevdotto} from 'react-icons/si'
 import { Navbar,Container,Nav} from 'react-bootstrap'
-import './module.css/porfolio.css'
+import './module.css/navbar.css'
 import { useState } from 'react'
 
 
