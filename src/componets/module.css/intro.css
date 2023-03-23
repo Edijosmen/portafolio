@@ -3,15 +3,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5%;
+    padding: 100px 50px 100px 50px;
+
 }
 .desc{
     width: 100%;
     height: auto;
 }
 .foto{
-    width: 100%;
+    width: 40%;
     height: auto;
+
 }
 .img-intro{
     width: 100%;

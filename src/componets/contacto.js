@@ -6,7 +6,7 @@ import './module.css/contacto.css'
 export default class Contacto extends Component {
   render() {
     return (
-      <div className='contacto'>
+      <div className='contacto' id='contacto'>
         <img className='img-contacto ' src="img/programador.png" alt=''/>
         <h5 className='cont-title'>Contacto</h5>
         <section >

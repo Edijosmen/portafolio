@@ -30,15 +30,15 @@ export default function NavBar() {
                   </Navbar.Collapse>
               </Container>
           </Navbar> */}
-          <nav className='container-menu'>
+          <nav className='container-menu subMenu' >
               <a>
                   <img src="img/logo-porfoliof.png" alt='' />
               </a>
               <ul className='ul-flued'>
-                  <li ><a href='#'>Inicio</a></li>
+                  <li ><a href='#intro'>Inicio</a></li>
                   <li ><a href='#perfils'>Perfil</a></li>
-                  <li ><a href='#'>Skill</a></li>
-                  <li ><a href='#'>Proyectos</a></li>
+                  <li ><a href='#skill'>Skill</a></li>
+                  <li ><a href='#proyecto'>Proyectos</a></li>
               </ul>
 
               <a ><FiMenu className='color' onClick={btnclik}></FiMenu></a>
@@ -46,12 +46,16 @@ export default function NavBar() {
           </nav>
           <section className='container-menu2'>
               <ul className={check === true ? 'ul-activo' : 'ul-inactivo'} hidden={check === true ? 'true' : undefined}>
-                  <li ><a href='#'>Inicio</a></li>
-                  <li ><a href='#'>Perfil</a></li>
-                  <li ><a href='#'>Skill</a></li>
-                  <li ><a href='#'>Proyectos</a></li>
+                  <li ><a href='#intro'>Inicio</a></li>
+                  <li ><a href='#perfils'>Perfil</a></li>
+                  <li ><a href='#skill'>Skill</a></li>
+                  <li ><a href='#proyecto'>Proyectos</a></li>
               </ul>
           </section>
       </div>
   )
+
+  
 }
+
+

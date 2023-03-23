@@ -22,7 +22,7 @@ export default function Perfil() {
                   </span>
                 
                   <div className='elaces'>
-                     <button className='ov-btn-slide-close'>Descargar CV</button>
+                     <a className='ov-btn-slide-close' href='/download/MeCv.pdf' download>Descargar CV</a>
                      
                   </div>
               </section>

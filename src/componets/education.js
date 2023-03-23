@@ -7,7 +7,7 @@ export default function Education() {
     }
 
   return (
-      <div>
+      <div id='educacion'>
           <h5 className='ed-title'>Educación</h5>
           <section className='education'>
               <div className='ed-kid'>

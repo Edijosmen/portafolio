@@ -5,7 +5,7 @@ import {DiNetmagazine,DiBootstrap,DiDocker,DiDotnet,DiMsqlServer,DiReact,DiRespo
 import './module.css/skill.css'
 export default function Skill() {
   return (
-    <div className='pt-5'>
+    <div className='pt-5' id='skill'>
             <h2 className='title-skill'>Skills</h2>
           <section className='skill'>
               <div className='kid-skill'>

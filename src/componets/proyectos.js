@@ -4,7 +4,7 @@ import {BsFileEarmarkCodeFill} from 'react-icons/bs'
 import {IoMdEye} from 'react-icons/io'
 export default function Proyectos() {
   return (
-    <div className='proyecto'>
+    <div className='proyecto' id='proyecto'>
         <h5 className='p-title'>Proyectos</h5>
         <section>
             <div className='p-kid '>

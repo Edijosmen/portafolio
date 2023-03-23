@@ -1,12 +1,15 @@
 /*nav*/
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 .container-menu{
-    display: flex;;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 5px;
+    width: 100%;
+    position: fixed;
+    background-color: #191919;
 }
 .ul-flued{
     display: flex;
