@@ -1,117 +1,34 @@
 /* education*/
-.-box div a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color: #03e9f4;
-    font-size: 15px;
-    text-decoration: none;
-    /*text-transform: uppercase;*/
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 2px
-  }
-  .-box div a:hover{
+
+.-box{
+  background-color: #1E1E1E;
+  margin: 40px;
   
-        transform: translate3d(0, -10px, 22px);
-        color: #ff0266;
-        
+
+}
+  .-box:hover{
+    transform: translate3d(0, -10px,0px);
+    transition: transform 0.5s;
    
+  }
+  .conte:hover .lio{
+    background: #ff0266;
   }
   .-box div a p{ 
     font-size: 15px;
   }
   
-  
-  .-box a span {
-    position: absolute;
-    display: block;
-  }
-  
-  .-box a span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
-    animation: btn-anim1 1s linear infinite;
-  }
-  
-  @keyframes btn-anim1 {
-    0% {
-      left: -100%;
-    }
-    50%,100% {
-      left: 100%;
-    }
-  }
-  
-  .-box a span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #03e9f4);
-    animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s
-  }
-  
-  @keyframes btn-anim2 {
-    0% {
-      top: -100%;
-    }
-    50%,100% {
-      top: 100%;
-    }
-  }
-  
-  .-box a span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #03e9f4);
-    animation: btn-anim3 1s linear infinite;
-    animation-delay: .5s
-  }
-  
-  @keyframes btn-anim3 {
-    0% {
-      right: -100%;
-    }
-    50%,100% {
-      right: 100%;
-    }
-  }
-  
-  .-box a span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #03e9f4);
-    animation: btn-anim4 1s linear infinite;
-    animation-delay: .75s
-  }
-  
-  @keyframes btn-anim4 {
-    0% {
-      bottom: -100%;
-    }
-    50%,100% {
-      bottom: 100%;
-    }
-  }
+
   
   section.education{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  
+  padding: 50px;
   }
   .ed-kid{
-      padding: 15px;
+      padding: 0px;
+      margin: 0px;
   }
   .ed-kid div{
       display: flex;
@@ -142,5 +59,75 @@
   }
   .creden :hover{
     cursor: pointer;
+  }
+.conte{
+  position: relative;
+}
+.conten-detalle{
+  padding: 30px;
+}
+  .lio:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 5%;
+    background-color:#03e9f4;
+  }
+  .lio:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 20%;
+    background-color:#03e9f4;
+  }
+  .lio:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5%;
+    height: 5%;
+    background-color:#03e9f4;
+  }
+  .lio:nth-child(4){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 20%;
+    background-color:#03e9f4;
+  }
+  .lio:nth-child(5){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 5%;
+    height: 5%;
+    background-color:#03e9f4;
+  }
+  .lio:nth-child(6){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 5px;
+    height: 20%;
+    background-color:#03e9f4;
+  }
+  .lio:nth-child(7){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5%;
+    height: 5%;
+    background-color:#03e9f4;
+  }
+  .lio:nth-child(8){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5px;
+    height: 20%;
+    background-color:#03e9f4;
   }
   /* end education*/

@@ -10,10 +10,7 @@ export default function Perfil() {
       <div>
           <div className='perfil' id='perfils'>
               <section className=' col sobre'>
-                  <span className='title1'>
-                    <div className='put-animete'></div>
-                   
-                  </span>
+                  <hr className='p-hr'></hr>
                   <span className='descripcion '>
                       Soy Ingeniero de sistemas, entusiasta en la innovación tecnológica,
                       Desarrollador Backend con preferencia en las tecnologías de .Net.
@@ -25,6 +22,7 @@ export default function Perfil() {
                      <a className='ov-btn-slide-close' href='/download/MeCv.pdf' download>Descargar CV</a>
                      
                   </div>
+                  <hr className='p-hr'></hr>
               </section>
 
               <section className='col date-personls'>

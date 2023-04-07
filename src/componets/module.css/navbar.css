@@ -1,9 +1,9 @@
 /*nav*/
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Righteous&display=swap');
 .container-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -17,7 +17,8 @@
     text-decoration: none;
     list-style: none;
     align-items: center;
-    font-family: 'Anonymous Pro', monospace;
+    font-family:  'Black Ops One';
+    padding-top: 15px;
 }
 .ul-flued li a{
     color: aliceblue;
@@ -56,7 +57,7 @@
     content: "";
     width: 0px;
     height: 2px;
-   background: #fd0a60; 
+  
    border-radius: 6px;
    transition:all .7s ease;
    color: aliceblue;
@@ -93,19 +94,19 @@
 }
 
 /*animaciones*/
-a {
-    position: relative;
+nav a {
+    position:relative;
     color: #02A9DA;
     text-decoration: none;
 
   }
   
-  a:hover {
+  nav a:hover {
     color: #fd0a60;
   }
-  a::before {
+  nav a::before {
     content: "";
-    position: absolute;
+   position: absolute;
     display: block;
     width: 100%;
     height: 2px;
@@ -115,7 +116,7 @@ a {
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
-  a:hover::before {
+ nav a:hover::before {
     transform: scaleX(1);
   }
 
@@ -131,6 +132,7 @@ a {
     transform: translateX(200px);
    
 }
+
 @keyframes moved {
     0%{
        

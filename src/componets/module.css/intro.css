@@ -13,7 +13,7 @@
 .foto{
     width: 40%;
     height: auto;
-
+    padding: 30px;
 }
 .img-intro{
     width: 100%;
@@ -34,11 +34,12 @@ span.name{
     color: #02A9DA;
    
 }
-span.devp{
+.devp{
     font-family: 'Righteous', cursive;
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: overline;
-    opacity: 80%;
+   
+
 }
 

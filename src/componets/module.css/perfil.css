@@ -61,19 +61,19 @@ label{
 .ov-btn-slide-close {
     background: #02A9DA; /* color de fondo */
     color: #fff; /* color de fuente */
-   
+  
     padding: 16px 20px;
     border-radius: 3px; /* redondear bordes */
-    position: relative;
+    
     z-index: 1;
     overflow: hidden;
     display: inline-block;
   }
   .ov-btn-slide-close:before, .ov-btn-slide-close:after {
     content: "";
-    
+  
     z-index: -1;
-    position: absolute;
+   
     width: 50%;
     height: 100%;
     top: 0;
@@ -84,15 +84,29 @@ label{
     transition: all 0.3s ease-in-out;
   }
   .ov-btn-slide-close:after {
+      position: relative;
     left: 100%;
   }
   .ov-btn-slide-close:hover {
     color: #fff; /* color de fuente hover */
+    position: relative;
   }
+
   .ov-btn-slide-close:hover:before {
+    position: absolute;
     left: 0;
   }
   .ov-btn-slide-close:hover:after {
     left: 50%;
+    position: absolute;
+  }
+
+  .p-hr{
+    border-width: 5px;
+    width:97%;
+    color: #02A9DA;
+    opacity: 100%;
+    border-radius: 2px;
+
   }
 /*end perfil*/
