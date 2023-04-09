@@ -11,6 +11,23 @@
     position: fixed;
     background-color: #191919;
 }
+.container-menu2{
+    position: relative;
+}
+.container-menu2 ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    font-family:  'Black Ops One';
+    width: 100%;
+    position:absolute;
+    background-color: #191919; 
+    max-height: 0px;
+    overflow: hidden;
+    transition:  all 1s;
+}
 .ul-flued{
     display: flex;
     flex-direction: row;
@@ -28,21 +45,27 @@
     flex-direction: row;
     text-decoration: none;
     list-style: none;
-    font-family: 'Anonymous Pro', monospace;
+    font-family:  'Black Ops One';
   
 }
 
 .ul-inactivo{
-    padding-top: 50px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     list-style: none;
-    font-family: 'Anonymous Pro', monospace;
+    font-family:  'Black Ops One';
     width: 100%;
-    position: sticky;
-    background-color: #191919;
-    
+    position:absolute;
+    background-color: #191919; 
+    max-height: 0px;
+    overflow: hidden;
+    transition:  all 1s;
+}
+
+.container-menu2 ul.show{
+    max-height: 500px;
 }
 .container-menu ul a{
     flex-direction: row;

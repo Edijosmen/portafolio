@@ -9,6 +9,7 @@ import { useState } from 'react'
 export default function NavBar() {
   const  [check,setCheck] = useState(false);
    function btnclik(){
+    document.querySelector(".container-menu2 ul").classList.toggle("show");
     if(check==true){
         setCheck(false); 
     }else{
@@ -18,18 +19,6 @@ export default function NavBar() {
    console.log(check);
   return (
       <div>
-          {/* <Navbar bg="light" expand="lg">
-              <Container>
-                  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                  <Navbar.Collapse id="basic-navbar-nav">
-                      <Nav className="me-auto">
-                          <Nav.Link href="#home">Home</Nav.Link>
-                          <Nav.Link href="#link">Link</Nav.Link>
-                      </Nav>
-                  </Navbar.Collapse>
-              </Container>
-          </Navbar> */}
           <nav className='container-menu' >
               <ul className="ul-flued">
                   <li ><a href='#intro'>Inicio</a></li>
@@ -42,7 +31,7 @@ export default function NavBar() {
               
           </nav>
           <section className='container-menu2'>
-              <ul className= {check === true ? 'ul-activo' : 'ul-inactivo'} hidden={check === true ? 'true' : undefined}>
+              <ul>
                   <li ><a href='#intro'>Inicio</a></li>
                   <li ><a href='#perfils'>Perfil</a></li>
                   <li ><a href='#skill'>Skill</a></li>
