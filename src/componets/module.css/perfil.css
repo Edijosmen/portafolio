@@ -61,19 +61,18 @@ label{
 .ov-btn-slide-close {
     background: #02A9DA; /* color de fondo */
     color: #fff; /* color de fuente */
-  
-    padding: 16px 20px;
-    border-radius: 3px; /* redondear bordes */
-    
+  text-decoration: none;
+    padding: 5px 20px;
+     /* redondear bordes */
+    border-color:#02A9DA;
+    border-radius: 5px;
     z-index: 1;
     overflow: hidden;
     display: inline-block;
   }
   .ov-btn-slide-close:before, .ov-btn-slide-close:after {
     content: "";
-  
     z-index: -1;
-   
     width: 50%;
     height: 100%;
     top: 0;
@@ -85,11 +84,12 @@ label{
   }
   .ov-btn-slide-close:after {
       position: relative;
-    left: 100%;
+      left: 100%;
   }
   .ov-btn-slide-close:hover {
     color: #fff; /* color de fuente hover */
     position: relative;
+    border-color:#fd0a60;
   }
 
   .ov-btn-slide-close:hover:before {

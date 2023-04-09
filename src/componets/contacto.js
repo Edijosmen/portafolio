@@ -23,9 +23,9 @@ export default class Contacto extends Component {
                     <Form.Group className="mb-3" >
                         <Form.Control as="textarea" rows={3} placeholder='--Mensaje--' name='mensaje' />
                     </Form.Group>
-                    <Button className='ov-btn-slide-close' type="submit">
+                    <button className='ov-btn-slide-close' type="submit">
                         Enviar!
-                    </Button>
+                    </button>
                     <Form.Control type='hidden' name='_next' value="http://localhost:3000/"/>
                     <Form.Control type='hidden' name='_captcha' value="false"/>
                 </Form>

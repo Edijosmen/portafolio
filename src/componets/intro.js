@@ -5,9 +5,9 @@ export default function Intro() {
   return (
     <div className='encabezado' id='intro'>
       <div >
-        <img src="img/edidevlogo.png" alt='' />
+        <img src="img/edidev5.png" alt='' />
         <br />
-        <span className='hola'>Hola,<br/>  soy<span className='name'> Edinson Meneses</span> </span>
+        <span className='name'> Edinson Meneses</span>
         <br />
         <span className='devp'> -Backend Developer-</span>
       </div>
