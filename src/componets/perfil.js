@@ -19,7 +19,7 @@ export default function Perfil() {
                   </span>
                 
                   <div className='elaces'>
-                     <a className='ov-btn-slide-close' href='/download/MeCv.pdf' download>Descargar CV</a>
+                     <a className='ov-btn-slide-close' href='/download/portafolio.pdf' download>Descargar CV</a>
                      
                   </div>
                   <hr className='p-hr'></hr>

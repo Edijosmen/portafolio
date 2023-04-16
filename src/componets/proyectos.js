@@ -27,23 +27,7 @@ export default function Proyectos() {
                     className='pr-icons'></IoMdEye> Demo</a>
                 </div>
             </div>
-            <div className='p-kid'>
-                <img src='img/lets-eat.png'></img>
-                <div className='btncl'>
-                    <a href='#'> <BsFileEarmarkCodeFill
-                    className='pr-icons'></BsFileEarmarkCodeFill>Code</a>
-                    <strong>|</strong>
-                    <a href='#'> <IoMdEye
-                    className='pr-icons'></IoMdEye> Demo</a>
-                </div>
-            </div>
-            <div className='p-kid'>
-                <img src='img/lets-eat.png'></img>
-                <div className='btncl'>
-                    <a href='#'> <BsFileEarmarkCodeFill
-                    className='pr-icons'></BsFileEarmarkCodeFill> Code</a>
-                </div>
-            </div>
+            
         </section>
         <hr/>
     </div>
