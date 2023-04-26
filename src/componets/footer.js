@@ -6,7 +6,7 @@ export default function Footer() {
         <hr className='hrs'/>
         <footer className='footer'>
               <div className="text-center p-4">
-                  © 2021 Copyright:
+                  © 2023 Copyright:
                   <span className="text-reset fw-bold"> Edijosmen</span>
               </div>
         </footer>

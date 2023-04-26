@@ -66,4 +66,8 @@ strong{
    
     opacity: 100%;
   }
+  .alert-proj{
+    display: flex;
+    justify-content: center;
+  }
 /* end proyecto*/

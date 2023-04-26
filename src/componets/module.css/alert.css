@@ -1,0 +1,12 @@
+.github{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.alert{
+    background-color: #1E1E1E;
+    width: 50%;
+}
+.alert span{
+    color: #1E1E1E;
+}

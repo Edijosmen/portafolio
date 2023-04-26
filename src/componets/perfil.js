@@ -28,7 +28,7 @@ export default function Perfil() {
               <section className='col date-personls'>
                   <BiUserPin className='icon-user'></BiUserPin> <span className='title2'>Datos Personales</span>
                   <div className='date-contenido'>
-                      <di className=' mb-3'>
+                      <div className=' mb-3'>
                           <div className='fi'>
                               <label>Perfil</label>
                               <br />
@@ -39,7 +39,7 @@ export default function Perfil() {
                               <br />
                               <span>+57 310-6658-317 </span>
                           </div>
-                      </di>
+                      </div>
 
 
                       <div className=' mb-3'>
