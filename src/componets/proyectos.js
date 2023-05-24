@@ -1,9 +1,12 @@
 import React,{useState} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './module.css/proyecto.css'
 import {BsFileEarmarkCodeFill} from 'react-icons/bs'
 import {IoMdEye} from 'react-icons/io'
 import AlertDismissible from './alertInfo'
 export default function Proyectos() {
+    AOS.init();
     const [show, setShow] = useState(false);
     const [description, setDescription] = useState();
     const [front, setFront] = useState();
@@ -47,7 +50,7 @@ export default function Proyectos() {
         <div className='alert-proj'>
         <AlertDismissible title={title} state={show} front={front} back={back} description={description} nP={nProyecto} changestateAlert={changestateAlert}></AlertDismissible>
         </div>
-        <section>
+        <section data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         
             <div className='p-kid ' onClick={handleProyecto1}>
                 <img src='img/lets-eat.png'></img>

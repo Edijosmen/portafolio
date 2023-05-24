@@ -1,15 +1,17 @@
 import React from 'react'
 import './module.css/perfil.css'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import {BiUserPin} from 'react-icons/bi'
 import {BsGithub,BsLinkedin} from 'react-icons/bs'
 
 export default function Perfil() {
+    AOS.init();
   return (
       <div>
           <div className='perfil' id='perfils'>
-              <section className=' col sobre'>
+              <section className=' col sobre'  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                   <hr className='p-hr'></hr>
                   <span className='descripcion '>
                       Soy Ingeniero de sistemas, entusiasta en la innovación tecnológica,
@@ -25,7 +27,10 @@ export default function Perfil() {
                   <hr className='p-hr'></hr>
               </section>
 
-              <section className='col date-personls'>
+              <section className='col date-personls' data-aos="fade-left"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="500">
                   <BiUserPin className='icon-user'></BiUserPin> <span className='title2'>Datos Personales</span>
                   <div className='date-contenido'>
                       <div className=' mb-3'>

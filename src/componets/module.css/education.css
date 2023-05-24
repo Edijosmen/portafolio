@@ -67,6 +67,9 @@
 .conten-detalle{
   padding: 30px;
 }
+.conten-detalle-c{
+  padding: 100px;
+}
   .lio:nth-child(1){
     position: absolute;
     top: 0;

@@ -10,6 +10,7 @@
     width: 100%;
     position: fixed;
     background-color: #191919;
+    z-index: 1;
 }
 .container-menu2{
     position: relative;
